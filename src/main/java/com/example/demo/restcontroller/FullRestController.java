@@ -17,7 +17,7 @@ public class FullRestController {
 	@Autowired
 	private EmployeeService employeeService; 
 
-	@GetMapping("/hello")
+	@GetMapping("/")
 	public String sayHello() {
 		return "Hello word " + LocalDateTime.now(); 
 	}
